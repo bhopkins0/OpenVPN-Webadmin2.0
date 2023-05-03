@@ -57,3 +57,10 @@ Adding clients, revoking clients, and downloading clients can be done via Client
 
 ![](https://brenthopkins.me/img/github/openvpn-webadmin/client_manager_page.jpg)
 
+
+
+# Todo:
+
+* Look into the possibility of installaton via Docker
+* Pentest webadmin and API endpoint
+
