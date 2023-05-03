@@ -63,4 +63,5 @@ Adding clients, revoking clients, and downloading clients can be done via Client
 
 * Look into the possibility of installaton via Docker
 * Pentest webadmin and API endpoint
+* Make security enchancements for storing VPN client private keys and privileges for API scripts
 
