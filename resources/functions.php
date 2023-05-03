@@ -8,7 +8,7 @@ function startMySQL(): bool|mysqli
 {
     $mysqlHostname = "";
     $mysqlUser = "";
-    $mysqlPass = '*';
+    $mysqlPass = '';
     $mysqlDB = "";
 
     return mysqli_connect($mysqlHostname, $mysqlUser, $mysqlPass, $mysqlDB);
