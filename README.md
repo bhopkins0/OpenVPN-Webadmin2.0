@@ -3,6 +3,8 @@ Easily manage your OpenVPN servers from a browser.
 
 Developed on a LEMP stack running Ubuntu 22.04, PHP-FPM 8.1, and MySQL 8.
 
+![](https://brenthopkins.me/img/github/openvpn-webadmin/status_page.jpg)
+
 What can you do with OpenVPN-Webadmin2.0?
 
 * Easily add, revoke, and download clients
