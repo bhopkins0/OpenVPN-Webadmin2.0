@@ -23,7 +23,7 @@ if (isPost() && !empty($_POST["username"]) && !empty($_POST["password"]) && !emp
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>OpenVPN Webadmin - Manage Users</title>
-    <link href="/resources/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             padding-top: 4.5rem;

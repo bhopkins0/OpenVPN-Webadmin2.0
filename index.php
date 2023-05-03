@@ -11,7 +11,7 @@ if (!isLoggedIn()) {
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>OpenVPN Webadmin - Home</title>
-    <link href="/resources/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             padding-top: 4.5rem;

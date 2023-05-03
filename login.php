@@ -22,7 +22,7 @@ if (isPost() && !empty($_POST["password"]) && !empty($_POST["username"])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <title>OpenVPN Webadmin - Login</title>
-    <link href="/resources/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/bootstrap.min.css" rel="stylesheet">
     <style>
         html,
         body {
