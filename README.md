@@ -5,7 +5,7 @@ Developed on a LEMP stack running Ubuntu 22.04, PHP-FPM 8.1, and MySQL 8.
 
 ![](https://brenthopkins.me/img/github/openvpn-webadmin/status_page.jpg)
 
-What can you do with OpenVPN-Webadmin2.0?
+# What can you do with OpenVPN-Webadmin2.0?
 
 * Easily add, revoke, and download clients
 * Manage an unlimited amount of servers
@@ -19,9 +19,8 @@ What can you do with OpenVPN-Webadmin2.0?
 NOTE: After changing the VPN port or protocol, you must redownload the OpenVPN client configurations. 
 This is because changing the VPN port/protocol requires the client configuration to updated. Downloading the client configuration again will give you an updated version
 
-<hr>
 
-How to install:
+# How to install:
 
 0. Install `php-fpm` (8.0 or higher), `php-curl`, `php-mysql`, and `mysql-server`.
 1. Add the MySQL database by importing `db_structure.sql`. You can do this with `mysql -u[user_name] -p [db_name] < db_structure.sql`
@@ -36,11 +35,25 @@ To add a VPN server:
 
 Adding clients, revoking clients, and downloading clients can be done via Client Manager.
 
-<hr>
-
-Bugs to be fixed:
+# Bugs to be fixed:
 
 * Deleting VPN servers that are no longer online (such as deleted VPS instance running OpenVPN) from the Webadmin has issues. I believe it is caused from cURL timeouts.
 
+# Screenshots:
 
+## Home 
+
+![](https://brenthopkins.me/img/github/openvpn-webadmin/home_page.jpg)
+
+## VPN Settings
+
+![](https://brenthopkins.me/img/github/openvpn-webadmin/vpn-settings-page.jpg)
+
+## VPN Status
+
+![](https://brenthopkins.me/img/github/openvpn-webadmin/status_page.jpg)
+
+## Client Manager
+
+![](https://brenthopkins.me/img/github/openvpn-webadmin/client_manager_page.jpg)
 
