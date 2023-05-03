@@ -34,6 +34,11 @@ To add a VPN server:
 
 Adding clients, revoking clients, and downloading clients can be done via Client Manager.
 
+<hr>
+
+Bugs to be fixed:
+
+* Deleting VPN servers that are no longer online (such as deleted VPS instance running OpenVPN) from the Webadmin has issues. I believe it is caused from cURL timeouts.
 
 
 
